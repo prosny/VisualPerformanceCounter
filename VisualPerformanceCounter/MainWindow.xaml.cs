@@ -41,7 +41,8 @@ namespace VisualPerformanceCounter
             {
                 var item = new CounterItem
                 {
-                    Name = performanceCounter.CounterName
+                    Name = performanceCounter.CounterName,
+                    Description = performanceCounter.CounterHelp
                 };
                 try
                 {
